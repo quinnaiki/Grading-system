@@ -1,0 +1,63 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-left: 500px; */
+    color: darkmagenta;
+}
+h3{
+    font-size: 25px;
+    color: darkmagenta;
+}
+body{
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 25px;
+    background-color: whitesmoke;
+}
+tr{
+    border: 1px solid black;
+    height: 15vh;
+
+}
+th{
+    border: 1px solid black;
+    width: 20vw;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+th ,p{
+    color: darkmagenta;
+}
+
+input{
+    height: 6vh;
+    width: 17vw;
+    border-radius: 10px;
+}
+:placeholder-shown{
+    font-size: 15px;
+    /* text-decoration-color: magenta;    */
+}
+div{
+    height: 30px;
+    width: 60vw;
+    /* border:  1px solid black; */
+    margin-left: 177px;
+    display: flex;
+    justify-content: space-around ;
+    font-size: 25px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.message{
+    border:  1px solid black;
+    height: 30vh;
+    width: 30vw;
+    background-color: whitesmoke;
+    margin-left:-0px;
+}

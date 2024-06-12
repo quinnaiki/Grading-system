@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1><strong>GRADING SYSTEM</strong></h1>
+    <p><h3>Input student score and calculate their total</h3></p>
+    <table>
+        <div>
+        <p>1st Term</p>
+        <p>2nd Term</p> 
+        <p>3rd Term</p>   
+        </div>
+        <tr>
+            <th><p>Mathematics</p></th>
+            <th><input type="text" placeholder="Input score" id="math"></th>
+            <th><input type="text" placeholder="Input score" id="pes"></th>
+            <th><input type="text" placeholder="Input score" id="pet"></th>
+            <th><input type="button" value="Total" onclick="calc()" id="total"></th>
+        </tr>
+        <tr>
+            <th>English</th>
+            <th><input type="text" placeholder="Input score" id="English"></th>
+            <th><input type="text" placeholder="Input score" id="cat"></th>
+            <th><input type="text" placeholder="Input score" id="dog"></th>
+            <th><input type="button" value="Total" id="tot" onclick="calcs()"></th>
+        </tr>
+        <tr>
+            <th>Physics</th>
+            <th><input type="text" placeholder="Input score" id="Physics"></th>
+            <th><input type="text" placeholder="Input score" id="motion"></th>
+            <th><input type="text" placeholder="Input score" id="tension"></th>
+            <th><input type="button" value="Total" id="tote" onclick="calcz()"></th>
+        </tr>
+        <tr>
+            <th>Chemistry</th>
+            <th><input type="text" placeholder="Input score" id="Chemistry"></th>
+            <th><input type="text" placeholder="Input score" id="organic"></th>
+            <th><input type="text" placeholder="Input score" id="water"></th>
+            <th><input type="button" value="Total" id="tota" onclick="calcd()"></th>
+       </tr>
+        <tr>
+           <th>Biology</th>
+           <th><input type="text" placeholder="Input score" id="Biology"></th>
+           <th><input type="text" placeholder="Input score" id="ani"></th>
+           <th><input type="text" placeholder="Input score" id="pla"></th>
+           <th><input type="button" value="Total" id="bio" onclick="calcb()"></th>
+      </tr>
+    </table>
+    <input type="button" value="Average" id="avera" onclick="average()">
+    <div class="message" id="message"></div>
+    
+    
+    
+    <!-- <input type="text" placeholder="input" id="first">
+    <input type="text" placeholder="input" id="second">
+    <input type="button" value="Total" id="total" onclick="total()"> -->
+</body>
+</html>
